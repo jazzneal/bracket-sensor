@@ -1,3 +1,2 @@
 # bracket-sensor
-Creating a cost-effective poka-yoke subassembly process using Arduino Uno and inductive proximity sensors
 This project uses an Arduino Uno and Arduino ethernet shield to communicate with an MES server. The Arduino sends a pass or fail to the server indicating the correct bracket is docked on the fixture for the assigned assembly. Subassembly stations are unique to the bracket, but the proceeding assembly, prompted by MES, CAN be done but WILL NOT work in parent assembly, hence the need for the poka-yoke process. This process would typically be done with a PLC but arduino allows for a more cost effective and simpler method.
